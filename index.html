@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My BSIT Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="prof.jpg" width="120" height="120" alt="Profile Picture" style="border-radius: 50%; display: block; margin: 0 auto; object-fit: cover;">
+        <h1>Piniel Viola</h1>
+        <nav aria-label="Main navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm Piniel Viola a 2nd Year BSIT Student at Rizal Technological University. I'm a motivated person who is a fast learner, can handle pressure, and also responsible enough to do the given task. After finishing college, I would like to pursue my career in tech industry so I can use what i've learned in college.</p>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">HTML</article>
+                <article class="skill-card">CSS</article>
+                <article class="skill-card">Java</article>
+                <article class="skill-card">C++</article>
+                <article class="skill-card">Python</article>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Piniel Viola | BSIT Portfolio</p>
+    </footer>
+</body>
+</html>
